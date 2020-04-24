@@ -1,0 +1,17 @@
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.AssemblyInfoInputs.cache
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.AssemblyInfo.cs
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\bin\Debug\netcoreapp3.1\YZF.Common.deps.json
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\bin\Debug\netcoreapp3.1\YZF.Common.dll
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\bin\Debug\netcoreapp3.1\YZF.Common.pdb
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.csprojAssemblyReference.cache
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.dll
+C:\Users\451482571\source\repos\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.pdb
+G:\yzf\YZFAdmin\YZF.Common\bin\Debug\netcoreapp3.1\YZF.Common.deps.json
+G:\yzf\YZFAdmin\YZF.Common\bin\Debug\netcoreapp3.1\YZF.Common.dll
+G:\yzf\YZFAdmin\YZF.Common\bin\Debug\netcoreapp3.1\YZF.Common.pdb
+G:\yzf\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.csprojAssemblyReference.cache
+G:\yzf\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.csproj.CoreCompileInputs.cache
+G:\yzf\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.AssemblyInfoInputs.cache
+G:\yzf\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.AssemblyInfo.cs
+G:\yzf\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.dll
+G:\yzf\YZFAdmin\YZF.Common\obj\Debug\netcoreapp3.1\YZF.Common.pdb
