@@ -41,6 +41,18 @@ namespace YZFAdmin
             });
             #endregion
 
+            services.AddCors(options =>
+                options.AddPolicy("any",
+                    builder => builder
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        //                        .WithOrigins("") // 允许指定域
+                        .AllowAnyOrigin() // 允许所有域
+                                          //                        .AllowCredentials()
+                        .WithExposedHeaders(new[] { "x-token-need-refresh", "x-token-need-relogin" })
+                        
+                        )
+            );
             services.RegisterAllService(this.GetType());
             services.AddControllers();
         }
@@ -52,7 +64,7 @@ namespace YZFAdmin
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("any");
             app.UseRouting();
 
             app.UseAuthorization();

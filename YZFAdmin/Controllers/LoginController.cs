@@ -10,18 +10,25 @@ namespace YZFAdmin.Controllers
     public class LoginController : Controller
     {
         private LoginService _loginService;
-        
+
         public LoginController(LoginService loginService)
         {
-            
+
             _loginService = loginService;
         }
         [HttpPost("api/Login/Login")]
-        public IActionResult Login(string username,string pwd)
+        public IActionResult Login([FromBody]LoginVM vm)
         {
-            
-            var user = _loginService.GetUser(username, pwd);
-            return Ok();
+
+            var user = _loginService.GetUser(vm.username, vm.pwd);
+            return Json(user);
         }
+    }
+
+
+    public class LoginVM
+    {
+        public string username { get; set; }
+        public string pwd { get; set; }
     }
 }
